@@ -1,0 +1,143 @@
+.topnav li:first-child {
+    margin-left: 5vw;
+}
+
+.topnav a {
+	font-size: 18px;
+	padding: 20px 18px;
+}
+
+.login-text {
+	padding: 10px;
+	width: 80px;
+}
+
+.login-button {
+	font-size: 14px;
+	padding: 8px;
+	height: 35px;
+	width: 80px;
+}
+
+.intro {
+	font-size: 3vw;
+}
+
+.intro-para {
+	font-size: 17px;
+}
+
+.townswille {
+	font-size: 26px;
+}
+
+.city-para {
+	font-size: 17px;
+}
+
+.town {
+	padding: 0.8em;
+	font-size: 17px;
+}
+
+.round-img {
+  width: 100%; 
+  margin-top: 30px;
+}
+
+.round-img2 {
+  width: 80%;
+  margin-left:0px;
+}
+
+.round-img1 {
+  width: 70%;
+}
+
+@media screen and (max-width: 750px) {
+
+.topnav li:first-child {
+    margin-left: 0vw;
+}
+
+.div-left {
+	width: 70%;
+	top: 35%;
+	left: 15%;
+	font-size: 3.5vw;
+}
+
+.div-right {
+	font-size: 3.5vw;
+	width: 70%;
+	margin: 0;
+	float: left;
+	left: 15%;
+	top: 80%;
+}
+
+.learn {
+	width: 30%;
+	font-size: 2vw;
+	padding: 15px;
+}
+
+.para {
+	font-size: 2.5vw;
+	padding: 0px 15px 0px 15px;
+}
+
+.slider-img {
+	height: 500px;
+}
+
+.intro {
+	margin-top: 20%;
+	font-size: 24px;
+}
+
+.intro-para {
+	font-size: 16px;
+}
+
+.townswille {
+	font-size: 24px;
+	width: 100%;
+}
+
+.row {
+	display: flex;
+	flex-direction: column;
+}
+
+.col {
+	width: 80%;
+}
+
+.city-para {
+	font-size: 16px;
+}
+
+.round-img {
+  width: 100%; 
+  margin-top: 30px;
+}
+
+.round-img2 {
+  width: 60%;
+  margin-left:40px;
+}
+
+.round-img1 {
+  width: 50%;
+}
+
+.town {
+	padding: 0.5em;
+	font-size: 16px;
+}
+
+
+}
+
+
