@@ -308,6 +308,7 @@ hr {
 
 .footer {
    position: relative;
+   margin-top: 20px;
    height: 200px;
    width: 100%;
    background-color: #404040;
@@ -335,7 +336,7 @@ hr {
 }
 
 .copyright {
-   font-size: 1.35vw;
+   font-size: 1.15vw;
 }
 
 .fa {
@@ -417,3 +418,63 @@ hr {
     background: linear-gradient(to right, rgb(102, 153, 255), rgb(72,209,204));
     padding: 10px;
 }
+
+/* artist_page  */
+
+.artist-details {
+  width: 90%;
+  margin-left: 2em;
+  height: 300px;
+  border: 1px solid #bfbfbf;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-family: Lucida Fax;
+}
+
+.artist-details1 {
+  width: 90%;
+  height: 300px;
+  border: 1px solid #bfbfbf;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.artist-image {
+  height: 300px;
+  width: 100%;
+}
+
+.artist-info {
+  font-size: 14px;
+  color: #424949;
+  font-family: Arial;
+  padding: 10px;
+}
+
+.artist-name {
+  padding: 10px;
+  font-size: 26px;
+}
+
+.musicians {
+  width: 100%;
+  height: auto;
+  padding: 1em;
+}
+
+.artist-more {
+  background-color: #056159;
+  text-align: center;
+  margin: 20px 0px 0px 70px;
+  padding: 0.5em;
+  color: white;
+  border: 1px solid #056159;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.artist-more:hover {
+  font-weight: bold;
+  color: #056159;
+  border: 2px solid #056159;
+  background-color: white;
+}
+

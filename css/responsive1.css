@@ -40,6 +40,7 @@
 .townswille {
 	font-size: 19px;
 	width: 100%;
+	padding: 0.5em;
 }
 
 .city-para {
@@ -49,6 +50,85 @@
 .town {
 	padding: 0.5em;
 	font-size: 15px;
+}
+
+.footer {
+   height: 130px;
+   margin-top: 20px;
+}
+
+.footer_left {
+	height: 120px;
+}
+
+.footer_right {
+	height: 120px;
+	padding-right: 2.5em;
+}
+
+hr {
+	margin: 1.5em 9em 1em 5em;
+}
+
+.copyright {
+   font-size: 1.75vw;
+   margin-right: 150px;
+}
+
+.event-back {
+	height: 120px;
+}
+
+.upcoming-events-text {
+	padding: 5px;
+	left: 32%;
+}
+
+.event-box {
+	width: 100%;
+	margin-left: 3.5em;
+}
+
+.event-box2 {
+	margin-top: 1.5em;
+	width: 100%;
+	margin-left: 3.5em;
+}
+
+.event-head {
+	font-size: 20px;
+	padding: 5px;
+}
+
+.event-para {
+	padding: 5px;
+	font-size: 12px;
+}
+
+.discount {
+  font-size: 14px;
+  padding: 10px 5px 5px 5px;
+}
+
+.artist-details {
+	width: 100%;
+	margin-left: 3.5em;
+}
+
+.artist-details1 {
+	margin-top: 1.5em;
+	width: 100%;
+	margin-left: 3.5em;
+}
+
+.artist-name {
+	font-size: 20px;
+	padding: 5px;
+}
+
+.artist-info {
+	padding: 5px;
+	font-size: 12px;
 }
 
 @media screen and (max-width: 500px) {
@@ -85,6 +165,61 @@
   margin-right: 5px;
 }
 
+.copyright {
+   font-size: 2.25vw;
+   margin-right: 150px;
 }
 
+.event-back {
+	height: 100px;
+}
+
+.event-box {
+	width: 100%;
+	margin-left: 1.5em;
+}
+
+.event-box2 {
+	margin-top: 1.5em;
+	width: 100%;
+	margin-left: 1.5em;
+}
+
+.event-head {
+	font-size: 20px;
+	padding: 5px;
+}
+
+.event-para {
+	padding: 5px;
+	font-size: 12px;
+}
+
+.discount {
+  font-size: 14px;
+  padding: 10px 5px 5px 5px;
+}
+
+.artist-details {
+	width: 100%;
+	margin-left: 1.5em;
+}
+
+.artist-details1 {
+	margin-top: 1.5em;
+	width: 100%;
+	margin-left: 1.5em;
+}
+
+.artist-name {
+	font-size: 20px;
+	padding: 5px;
+}
+
+.artist-info {
+	padding: 5px;
+	font-size: 12px;
+}
+
+}
 
