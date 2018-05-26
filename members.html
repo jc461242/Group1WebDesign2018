@@ -26,12 +26,17 @@
 <header>
 	<div class="outer_div">
     <a href="index.html"><img class="child_left" src="images/TCMC150100.jpg" /></a>
+    <div class="child_right">
+      <input type="text" class="login-text" placeholder="Username" required>
+      <input type="password" class="login-text" placeholder="Password" required>
+      <button class="login-button" type="submit">Login</button>
+    </div>
     </div>
 
 
 <ul class="topnav">
 <li><span class="open-slide">
-      <a href="#" onclick="openSlideMenu()">
+      <a href="#" onClick="openSlideMenu()">
         <svg width="30" height="30">
             <path d="M0,5 30,5" stroke="#000" stroke-width="5"/>
             <path d="M0,14 30,14" stroke="#000" stroke-width="5"/>
@@ -49,7 +54,7 @@
   <li><a href="contact.html">Contact</a></li>
 </ul>
 <div id="side-menu" class="side-nav">
-    <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+    <a href="#" class="btn-close" onClick="closeSlideMenu()">&times;</a>
     <a href="index.html">Home</a>
     <a href="events.html">Events</a>
 	<a href="artists.html">Artists</a>
@@ -65,7 +70,6 @@
 <div class="region">
 	<div class="sub-region"> 
 			<div id="content-form">
-			<!--<h1>Member's Registration</h1>-->
 			<div id="form">
 				<form action="">
 				<label for="fname">First Name</label>
@@ -96,27 +100,34 @@
 	</div>
     <div class="sub-region"  >
 		<div class="siteContent" >
-			<h2>Member's Registration</h2>
-		 <ul>
+			<h2 style="color:dodgerblue">Member's Registration</h2>
+		 <ul id="box-content">
 			<li>Individual Membership subscription is $25 per year.</li>
 			<li>The Music Centre is also registered as a Deductible Gift Recipient.</li> 
 			<li>Any extra donations are tax-deductible!</> 
-		<ul>
-			<p>Please make cheques payable to Townsville Community Music Centre Inc, and post to: 
+			<li><p>Please make cheques payable to Townsville Community Music Centre Inc, and post to: 
 			PO Box 1006, Townsville, Qld 4810
-			</P>
-			<h4>Deposit to account</h4>
-			<ul>
+			</p></li>
+		</ul>
+			
+			<h4 style="color:dodgerblue">Deposit to account</h4>
+			<ul id="box-content">
 				<li>Account Name:	Townsville Community Music Centre Inc.</li>
 				<li>Account Number: 	141 475 053</li>
 				<li>Bank: 	Bendigo Bank</li>
 				<li>BSB Number:	633 000</li>
 			</ul>
-			<p>It is also possible to pay online by Visa, Mastercard or PayPal
-			From our website - www.townsvillemusic.org.au
-			</p>
-		</p>
-		 </div>
+			
+			<h4 style="color:dodgerblue">Pay online</h4>
+			<ul id="box-content">
+				<li>It is also possible to pay online </li>
+				<li>by Visa, Mastercard or PayPal</li>
+				<button class="learn" style="margin-left:5px" type="submit" onClick="window.location.href='https://www.paypal.com'">Donate</button>
+				<button class="learn" type="submit" onClick="window.location.href='https://www.paypal.com'">Make a Payment</button>
+				
+			</ul>
+			
+		</div>
       
     </div>
 </div>
