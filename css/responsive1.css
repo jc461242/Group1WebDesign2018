@@ -110,6 +110,11 @@ hr {
   padding: 10px 5px 5px 5px;
 }
 
+.artist-background {
+  width: 100%;
+  height: 50px;
+ }
+
 .artist-details {
 	width: 100%;
 	margin-left: 3.5em;
@@ -130,6 +135,16 @@ hr {
 	padding: 5px;
 	font-size: 12px;
 }
+
+.artist-more {
+  margin: 20px 0px 0px 30px;
+  font-size: 16px;
+}
+
+.div-about-main {
+	/*height: */
+}
+
 
 @media screen and (max-width: 500px) {
 
@@ -221,5 +236,5 @@ hr {
 	font-size: 12px;
 }
 
-}
 
+}
