@@ -283,6 +283,17 @@ hr {
 	padding: 10px;
 	font-size: 14px;
 }
+/*---------------Start of Mansih Shakya CSS Style-----------------------
+.region{
+	display: flex;
+	flex-direction: column;
+}
+
+.sub-region {
+	width: 80%;
+}
+
+---------------END of Mansih Shakya CSS Style-----------------------*/
 
 }
 
