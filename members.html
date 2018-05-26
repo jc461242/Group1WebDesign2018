@@ -2,28 +2,12 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Member: Townsville </title>
+<title>Townsville: Members </title>
 <link rel="stylesheet" type="text/css" href="css/style.css" />
 <link rel="stylesheet" href="css/responsive.css" media="screen and (max-width: 900px)" />
 <link rel="stylesheet" href="css/responsive1.css" media="screen and (max-width: 650px)" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<script type="text/javascript">
-	function run_first(){
-		var id_var = sessionStorage.li_id;
-       		if(id_var){
-				alert(1);
-			document.getElementById(id_var).style.backgroundColor = "#333333";
-		}
-	}
-	function nav_li_selected(li_id){
-		for(i = 0; i < 7; i++) {
-			document.getElementById(i.toString()).style.backgroundColor = "";
-		}
-		document.getElementById(li_id.toString()).style.backgroundColor = "#333333";
-		sessionStorage.li_id = li_id.toString()
-	}
 
-</script>
 </head>
 
 <body class="container">
@@ -34,13 +18,13 @@
     </div>
 	
 <ul class="topnav">
-  <li><a class="active" href="index.html"target="_self" id="0" onClick="nav_li_selected(0)">Home</a></li>
-  <li><a href="introduction.html" target="_self" id="1" onClick="nav_li_selected(1)">Events</a></li>
-  <li><a href="costumes.html" target="_self" id="2" onClick="nav_li_selected(2)">Artists</a></li>
-  <li><a href="history.html" target="_self" id="3" onClick="nav_li_selected(3)">Bulletins</a></li>
-  <li><a href="history.html" target="_self" id="4" onClick="nav_li_selected(4)">Members</a></li>
-  <li><a href="aboutUs.html" target="_self" id="5" onClick="nav_li_selected(5)">About Us</a></li>
-  <li><a href="contact.html" target="_self" id="6" onClick="nav_li_selected(6)">Contact Us</a></li>
+ <li><a  href="index.html">Home</a></li>
+  <li><a href="events.html">Events</a></li>
+  <li><a href="artists.html">Artists</a></li>
+  <li><a href="bulletins.html">Bulletins</a></li>
+  <li><a  class="active" href="members.html">Members</a></li>
+  <li><a href="about.html">About</a></li>
+  <li><a href="contact.html">Contact</a></li>
 </ul>
 
 </header>
