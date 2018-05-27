@@ -7,17 +7,7 @@
 <link rel="stylesheet" href="css/responsive.css" media="screen and (max-width: 900px)" />
 <link rel="stylesheet" href="css/responsive1.css" media="screen and (max-width: 650px)" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script>
-    function openSlideMenu(){
-      document.getElementById('side-menu').style.width = '250px';
-      document.getElementById('main').style.marginLeft = '250px';
-    }
-
-    function closeSlideMenu(){
-      document.getElementById('side-menu').style.width = '0';
-      document.getElementById('main').style.marginLeft = '0';
-    }
-  </script>
+ 
 
 </head>
 
@@ -32,38 +22,15 @@
       <button class="login-button" type="submit">Login</button>
     </div>
     </div>
-
-
 <ul class="topnav">
-<li><span class="open-slide">
-      <a href="#" onClick="openSlideMenu()">
-        <svg width="30" height="30">
-            <path d="M0,5 30,5" stroke="#000" stroke-width="5"/>
-            <path d="M0,14 30,14" stroke="#000" stroke-width="5"/>
-            <path d="M0,23 30,23" stroke="#000" stroke-width="5"/>
-        </svg>
-      </a>
-</span>	</li>
-	
- <li><a  href="index.html">Home</a></li>
-  <li><a href="events.html">Events</a></li>
-  <li><a href="artists.html">Artists</a></li>
-  <li><a href="bulletins.html">Bulletins</a></li>
-  <li><a  class="active" href="members.html">Members</a></li>
-  <li><a href="about.html">About</a></li>
-  <li><a href="contact.html">Contact</a></li>
-</ul>
-<div id="side-menu" class="side-nav">
-    <a href="#" class="btn-close" onClick="closeSlideMenu()">&times;</a>
-    <a href="index.html">Home</a>
-    <a href="events.html">Events</a>
-	<a href="artists.html">Artists</a>
-	<a href="bulletins.html">Bulletins</a>
-	<a href="members.html">Members</a>
-	<a href="about.html">About</a>
-	<a href="contact.html">Contact</a>
-   
-  </div>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="artists.html">Artists</a></li>
+            <li><a href="bulletins.html">Bulletins</a></li>
+            <li><a class="active" href="members.html">Members</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
 
 </header>
 
@@ -104,7 +71,6 @@
 		 <ul id="box-content">
 			<li>Individual Membership subscription is $25 per year.</li>
 			<li>The Music Centre is also registered as a Deductible Gift Recipient.</li> 
-			<li>Members' ticket discounts can be as high as 50%!</li> 
 			<li>Any extra donations are tax-deductible!</> 
 			<li><p>Please make cheques payable to Townsville Community Music Centre Inc, and post to: 
 			PO Box 1006, Townsville, Qld 4810
@@ -121,10 +87,9 @@
 			
 			<h4 style="color:dodgerblue">Pay online</h4>
 			<ul id="box-content">
-				<li>It is also possible to pay online </li>
-				<li>by Visa, Mastercard or PayPal</li>
-				<button class="learn" style="margin-left:5px" type="submit" onClick="window.location.href='https://www.paypal.com'">Donate</button>
-				<button class="learn" type="submit" onClick="window.location.href='https://www.paypal.com'">Make a Payment</button>
+				<li>It is also possible to pay online by Visa, Mastercard or PayPal</li>
+				<button class="pay" type="submit" onClick="window.location.href='https://www.paypal.com'">Donate</button>
+				<button class="pay" type="submit" onClick="window.location.href='https://www.paypal.com'">Make a Payment</button>
 				
 			</ul>
 			
