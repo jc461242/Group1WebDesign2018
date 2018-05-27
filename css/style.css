@@ -1,3 +1,5 @@
+/*index page css designed by Pawandeep kaur*/
+
 .container {
 	background-color: white;
 	width: 100%;
@@ -159,7 +161,7 @@
 
 .learn {
   background: linear-gradient(to right, rgb(255, 102, 0), rgb(255, 204, 0));
-  color: #06756C;
+  color: black;
   border: 0px;
   width: 40%;
   height: auto;
@@ -203,6 +205,10 @@
 
 .img-sub {
   flex: 1; 
+}
+
+.img-sub2 {
+  flex: 1;
 }
 
 .round-img {
@@ -305,7 +311,7 @@ hr {
     height: 1px;
     border: 0;
     border-top: 1px solid #ccc;
-    margin: 3em 16em 1em 10em;
+    margin: 3em 0em 1em 0em;
     padding: 0;
 }
 
@@ -327,6 +333,10 @@ hr {
   background: #3B5998;
   color: white;
 }
+
+/*end of index page*/
+
+/*event page designed by Pawandeep kaur*/
 
 .event-div {
   width: 100%;
@@ -381,7 +391,7 @@ hr {
 .upcoming-events-text {
     position: absolute;
     top: 33%;
-    left: 40%;
+    left: 33%;
     z-index: 2000;
     font-size: 3.5vw;
     font-weight: bold;
@@ -392,6 +402,8 @@ hr {
     background: linear-gradient(to right, rgb(102, 153, 255), rgb(72,209,204));
     padding: 10px;
 }
+
+/*end of event page*/
 
 /* artist_page  */
 
@@ -469,12 +481,28 @@ hr {
 	margin-left:10%;
 	margin-right:10%;
 }
+
+.pay {
+  background-color: #003366;
+  color: white;
+  border: 0px;
+  width: auto;
+  height: auto;
+  padding: 10px;
+  font-size: 1.5vw;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 30px;
+  margin-left: 80px;
+  margin-top: 20px;
+}
+
 .sub-region{
 	flex: 1;
 	padding:20px;
 }
 #box-content{
-	background-color:#06756C;
+	background-color:#b3d9ff;
 	border: 1px solid #bfbfbf;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	
@@ -607,7 +635,19 @@ textarea {
 /*--------------- End of manish Shakya CSS--------*/
 
 
-/*about us page*/
+/*about us page designed by pawandeep kaur*/
+.about-text {
+    position: absolute;
+    top: 33%;
+    left: 40%;
+    z-index: 2000;
+    font-size: 3.5vw;
+    font-weight: bold;
+    color: #b24034;
+    font-family: Lucida Fax;
+    background: linear-gradient(to right, rgb(102, 153, 255), rgb(72,209,204));
+    padding: 10px;
+}
 
 .div-about-main {
   position: relative;
@@ -616,22 +656,19 @@ textarea {
     height: 300px;
 }
 
-.div-about-intro {
+.about-back {
+  height: 300px;
   width: 100%;
-  height: 350px;
-  background: -webkit-linear-gradient(#0077b3, #48D1CC);
-  text-align: center;
-  color: white;
-  padding: 1em;
+  opacity: 0.9;
 }
 
-.div-about-intro2 {
+.div-about-intro {
   width: 100%;
   height: auto;
   background: -webkit-linear-gradient(#00e6b8, #48D1CC);
-  text-align: center;
+  
   color: black;
-  padding: 1em;
+  padding: 0.5em;
 }
 
 .about-para {
@@ -640,29 +677,27 @@ textarea {
 }
 
 .about-col {
-  height: 350px;
+  height: auto;
   width: 100%;
+  background: -webkit-linear-gradient(#00e6b8, #48D1CC);
 }
 
-.about-col2 {
-  height: 450px;
-  width: 100%;
-}
 
 .img-about-us {
   width: 100%;
   height: auto;
+  margin-top: 5em;
 }
 
 .history-head {
   background: linear-gradient(to right, rgb(38, 38, 38), rgb(0, 0, 0) 50%, rgb(38, 38, 38));
   width: 100%;
-  height: 120px;
+  height: 100px;
   text-align: center;
   color: white;
   font-size: 36px;
   font-family: Lucida Fax;
-  padding-top: 70px;
+  padding-top: 30px;
 }
 
 .history-year {
